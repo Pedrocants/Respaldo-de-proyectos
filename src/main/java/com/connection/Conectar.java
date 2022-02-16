@@ -25,6 +25,7 @@ public class Conectar {
     public static void cerrar() throws SQLException{
         if(con!=null){
             con.close();
+            con=null;
         }
     }
 

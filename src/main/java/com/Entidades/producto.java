@@ -4,13 +4,13 @@ public class producto {
     private int ID;
     private String nombre="";
     private String estado;
-    private int stock;
+    private float stock;
 
-    public int getStock() {
+    public float getStock() {
         return stock;
     }
 
-    public void setStock(int stock) {
+    public void setStock(float stock) {
         this.stock = stock;
     }
     public String getEstado() {
@@ -22,13 +22,7 @@ public class producto {
     }
     private int stoc;
     
-    public int getStoc() {
-        return stoc;
-    }
-
-    public void setStoc(int stoc) {
-        this.stoc = stoc;
-    }
+   
     public producto() {
     }
     
